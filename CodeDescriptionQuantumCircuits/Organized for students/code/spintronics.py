@@ -128,7 +128,7 @@ def coRN(pars):
     return(AA,None,None,None)
 def coRF(pars):
     co=pars
-    AA=-co*np.array([0,0],[0,1.0])
+    AA=-co*np.array([[0,0],[0,1.0]])
     return(AA,None,None,None)
 ###########################
     
